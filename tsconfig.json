@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@pages/*": ["./pages/*"],
+      "@fixtures/*": ["./fixtures/*"],
+      "@utils/*": ["./utils/*"],
+      "@api/*": ["./api/*"]
+    },
+    "allowImportingTsExtensions": true,
+    "moduleResolution": "bundler",
+    "noEmit": true
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules", "**/node_modules/*", "**/.vscode/*"]
+}
